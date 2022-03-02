@@ -2,6 +2,7 @@ package torres.felipe.peliculas
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.ListView
 
 class MainActivity : AppCompatActivity() {
     var peliculas: ArrayList<Pelicula> = ArrayList()
@@ -11,6 +12,12 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         llenar_peliculas()
+
+        var adaptador = AdaptadorPeliculas(this,peliculas)
+
+        var listview: ListView = findViewById(R.id.listview)
+
+        listview.adapter = adaptador
     }
 
     fun llenar_peliculas(){

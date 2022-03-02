@@ -1,12 +1,12 @@
 <resources>
     <string name="app_name">peliculas</string>
 
-    <string name="peli1">avatar</string>
-    <string name="peli2">avengers</string>
-    <string name="peli3">cisne_negro</string>
-    <string name="peli4">duna</string>
-    <string name="peli5">shang_chi</string>
-    <string name="peli6">venom_carnage_liberado</string>
+    <string name="peli1">Avatar</string>
+    <string name="peli2">Avengers Infinity War</string>
+    <string name="peli3">Cisne-Negro</string>
+    <string name="peli4">Dune</string>
+    <string name="peli5">Shang-Chi</string>
+    <string name="peli6">Venom Carnage Liberado</string>
 
     <string name="peli1_sinop">En un exuberante planeta llamado Pandora viven los Navi, seres que aparentan ser primitivos pero que en realidad son muy evolucionados. Debido a que el ambiente de Pandora es venenoso, los híbridos humanos Navi, llamados Avatares, están relacionados con las mentes humanas, lo que les permite moverse libremente por Pandora. Jake Sully, un exinfante de marina paralítico se transforma a través de un Avatar, y se enamora de una mujer Navi.</string>
     <string name="peli2_sinop">Los superhéroes se alían para vencer al poderoso Thanos, el peor enemigo al que se han enfrentado. Si Thanos logra reunir las seis gemas del infinito: poder, tiempo, alma, realidad, mente y espacio, nadie podrá detenerlo</string>

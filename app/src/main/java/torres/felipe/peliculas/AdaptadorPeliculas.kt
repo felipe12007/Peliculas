@@ -1,10 +1,13 @@
 package torres.felipe.peliculas
 
 import android.content.Context
+import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.BaseAdapter
-import java.security.AccessControlContext
+import android.widget.ImageView
+import android.widget.TextView
+
 
 class AdaptadorPeliculas: BaseAdapter {
     lateinit var context: Context
@@ -31,7 +34,19 @@ class AdaptadorPeliculas: BaseAdapter {
     }
 
     override fun getView(p0: Int, p1: View?, p2: ViewGroup?): View {
-       //
+       //obtener un inflador
+        val inflador = LayoutInflater.from(context)
+        var vista = inflador.inflate(R.layout.pelicula_view,null)
+
+        var img: ImageView = vista.findViewById(R.id.img_view)
+        var nombre: TextView = vista.findViewById(R.id.text_nombre)
+
+        var pelicula: Pelicula = peliculas[p0]
+
+        img.setImageResource(pelicula.img)
+        nombre.setText(pelicula.nombre)
+
+        return vista
     }
 
 
