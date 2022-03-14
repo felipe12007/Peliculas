@@ -5,14 +5,14 @@ import android.os.Bundle
 import android.widget.ImageView
 import android.widget.TextView
 
-class PeliculaActivity : AppCompatActivity() {
+class SerieActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_pelicula)
+        setContentView(R.layout.activity_serie)
 
-        val tv_nombre: TextView = findViewById(R.id.tv_nombre_pelicula)
-        val tv_sinop: TextView = findViewById(R.id.tv_sinop_pel)
-        val iv_img: ImageView = findViewById(R.id.img_pelicula)
+        val tv_nombre: TextView = findViewById(R.id.tv_nombre_serie)
+        val tv_sinop: TextView = findViewById(R.id.tv_sinop_serie)
+        val iv_img: ImageView = findViewById(R.id.img_serie)
 
         val bundle = intent.extras
 
